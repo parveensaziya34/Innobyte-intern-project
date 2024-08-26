@@ -1,0 +1,323 @@
+/* home.css */
+
+/* Apply the background image to both the navbar and the hero section */
+.bg-hero {
+    background-image: url('/ayodhya.webp'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    position: fixed; /* Ensure the navbar stays on top */
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure it stays on top of other content */
+}
+
+/* Ensure the hero section covers the full viewport height */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/ayodhya.webp'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Overlay color for text readability */
+}
+
+/* Navbar container styling */
+.navbar-container {
+    position: fixed;
+    max-width: 1200px; /* Adjust to your desired max width */
+    margin: 0 auto;}
+/* .logo{
+    ;
+} */
+
+/* Navbar items styling */
+.navbar-item {
+    /* background-image: url('/ayodhya.webp'); Same background image */
+    background-size: cover;
+    /* background-position: center; */
+    color: white; /* Text color */
+    padding: 32px 16px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; 
+    transition: background-color 0.3s;
+    font-weight: 100;
+    font-size: large;
+}
+
+
+/* Home CSS */
+.section__container {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .room__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section__subheader {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .room__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .room__card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .room__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .room__card__image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .room__card__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .room__card__icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .room__card__icons span {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .room__card__details {
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .room__card__details h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .room__card__details p {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .room__card__details h5 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .room__card__details span {
+    font-weight: bold;
+    color: #e67e22;
+  }
+  
+  .btn {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d35400;
+  }
+
+  
+/* About Us CSS */
+/* About Us CSS */
+.about__container {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .about__content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about__text-and-image {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about__image-container {
+    flex: 1;
+  }
+  
+  .about__image {
+    max-width: 450px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about__text {
+    flex: 2;
+  }
+  
+  .section__subheader {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .section__description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  h4 a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  h4 a:hover {
+    text-decoration: underline;
+  }
+  
+  .about__btn {
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d35400;
+  }
+  
+
+
+
+  /* Services Section CSS */
+  .service {
+    position: relative;
+    overflow: hidden;
+    height: 70vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/palash.webp'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section__container {
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your layout needs */
+    margin: 0 auto;
+    padding: 0 2rem; /* Adjust padding as needed */
+  }
+  
+  .service__content {
+    position: relative; /* Ensure content is positioned correctly */
+    text-align: center;
+    color: #0a0303;
+    background: rgba(0, 0, 0, 0.45); /* Semi-transparent background for readability */
+    padding: 2rem;
+    border-radius: 8px;
+    z-index: 1; /* Ensure content is above the background */
+  }
+  
+  .section__subheader {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section__header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .service__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service__list li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin: 0.75rem 0;
+  }
+  
+  .service__list li span {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #f1c40f; /* Adjust color as needed */
+    margin-right: 1rem;
+  }
+  
+  .service__list li i {
+    font-size: 1.5rem;
+  }
+  
